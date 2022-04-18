@@ -1,4 +1,4 @@
-package lesson2;
+package lesson3;
 import java.util.Scanner;
 public class Activity3_2 {
     public static void main(String[] args) {
