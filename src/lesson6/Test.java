@@ -1,6 +1,6 @@
 package lesson6;
-import java.util.Scanner;
-public class Activity6_1 {
+
+public class Test {
     public static void main(String[] args) {
         Smartphone nokia7 = new Smartphone("Nokia7", false, true, true, "Symbian", 16, "Black", 500, 1);
         Smartphone samsungA5 = new Smartphone("SamsungA5", true, true, true, "Android", 32, "White", 2000, 3);
