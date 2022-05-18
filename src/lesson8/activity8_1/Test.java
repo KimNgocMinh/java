@@ -1,4 +1,4 @@
-package lesson8;
+package lesson8.activity8_1;
 
 
 import java.io.*;
@@ -7,12 +7,11 @@ public class Test {
     public static final int BOOK = 1,JOURNAL = 2,NEWSPAPER = 3;
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         Scanner input = new Scanner(System.in);
-        FileInputStream fileInputStream = new FileInputStream("src\\lesson8\\data.ser");
+        FileInputStream fileInputStream = new FileInputStream("src\\lesson8\\activity8_1\\data.ser");
         ObjectInputStream inputStream = new ObjectInputStream(fileInputStream);
 
         DocumentManament documentManament = (DocumentManament) inputStream.readObject();
         inputStream.close();
-
 
         int command = 0;
         do {
@@ -70,7 +69,7 @@ public class Test {
         }while(command != 5);
         //Luu data
         try{
-            FileOutputStream file = new FileOutputStream("src\\lesson8\\data.ser");
+            FileOutputStream file = new FileOutputStream("src\\lesson8\\activity8_1\\data.ser");
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(file);
 
             objectOutputStream.writeObject(documentManament);

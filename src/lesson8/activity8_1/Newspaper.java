@@ -1,4 +1,4 @@
-package lesson8;
+package lesson8.activity8_1;
 
 public class Newspaper extends Document {
     private int ngayPhatHanh;

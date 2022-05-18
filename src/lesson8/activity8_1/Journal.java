@@ -1,6 +1,4 @@
-package lesson8;
-
-import java.io.Serializable;
+package lesson8.activity8_1;
 
 public class Journal extends Document {
     private int soPhatHanh;

@@ -1,4 +1,4 @@
-package lesson8;
+package lesson8.activity8_1;
 
 import java.io.Serializable;
 import java.util.ArrayList;

@@ -1,7 +1,6 @@
-package lesson8;
+package lesson8.activity8_1;
 
 import java.io.Serializable;
-import java.util.Objects;
 
 public abstract class Document implements Comparable<Document>, Serializable {
     protected String tenNhaXuatBan;
